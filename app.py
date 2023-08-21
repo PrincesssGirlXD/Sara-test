@@ -9,6 +9,6 @@ requests.get("https://api.telegram.org/bot6281251739:AAFGDxuibD-teVFF_wzOTc41dgJ
 
 
 @app.get("/")
-async def heol():
+def heol():
   return "Hello World!"
 
