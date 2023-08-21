@@ -20,3 +20,5 @@ async def starts(client , msg):
 @app.get("/")
 async def heol():
   return "Hello World!"
+
+bot.run()
