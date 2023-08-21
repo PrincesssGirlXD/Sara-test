@@ -7,8 +7,8 @@ bot = Client(
   bot_token="6281251739:AAFGDxuibD-teVFF_wzOTc41dgJtE6kJje4"
 )
 @bot.on_message(filters.command("start"))
-async def starts(client , msg):
-  await message.reply_text("Alpha Server Working Fine")
+def starts(client , msg):
+  message.reply_text("Alpha Server Working Fine")
 
 bot.run()
   
